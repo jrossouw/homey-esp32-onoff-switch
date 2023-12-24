@@ -172,4 +172,5 @@ void app_main(void) {
 
     light_driver_init(LIGHT_DEFAULT_OFF);
     button_driver_init(button_func_pair, PAIR_SIZE(button_func_pair), esp_zb_buttons_handler);
+    
 }
